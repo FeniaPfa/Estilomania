@@ -29,6 +29,7 @@
   <!-- IMPORTS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
     integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 
@@ -57,8 +58,30 @@
 
 <body>
 
+  <!-- Modal -->
+<div class="modal fade bd-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Nueva Linea Sanitaria</h5>
+        <button type="button" class="btn-secondary btn" data-dismiss="modal" aria-label="Close" id="xClose">
+          <span aria-hidden="true"><i class="fas fa-times"></i></span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="src/square.jpg" alt="" width="100%">
+      </div>
+      <div class="modal-footer">
+        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btnClose">Cerrar</button> -->
+        <a class="btn btn-primary" target="_blank" href="https://drive.google.com/drive/folders/1-tcLHTW3-7TeQmpra3TWiMHMKup3q38_">Ver Certificaciones</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
   <!-- HEADER -->
-  <!-- HEADER -->
+
   <header id="hero">
 
 
@@ -85,9 +108,9 @@
 
         <div class="menu-toggle" id="hamburger">
             <i class="fas fa-bars"></i>
-            <i class="fas fa-times"></i>
+            <i class="fas fa-times menux"></i>
         </div>
-        <a href="#hero" class="logo"><img src="./src/isologo.png" alt="VLook Logo" width="150px"></a>
+        <a href="https://www.estilomania.cl" class="logo"><img src="./src/isologo.png" alt="Estilomania Logo" width="150px"></a>
 
         <!-- NAV LIST -->
         <ul class="nav-list" id="nav-list">
@@ -116,13 +139,12 @@
 
     <div class="hero">
         <div class="hero-text">
-            <h1>Estilomania
-                <br>
-                Ropa Corporativa</h1>
+            <h1>Ropa Corporativa y Estampados</h1>
 
-            <p>Sabías que un equipo bien uniformado da mayor credibilidad?</p>
-            <h3><strong>Tenemos todo lo que necesitas para lucir como un profesional</strong> y si estas recién empezando, también vendemos al detalle!</h3>
-            <a href="http://wa.me/56941671098" target="_blank" class="btn btn-lg btn-primary">Contáctanos</a>
+            <h5>Sabías que un equipo bien uniformado da mayor credibilidad?</h5>
+            <h3>Tenemos todo lo que necesitas para lucir como un profesional</h3>
+
+            <a href="http://wa.me/56941671098" target="_blank" class="btn btn-lg btn-primary h-btn">Contáctanos</a>
         </div>
         <div class="hero-img">
             <img src="src/hero.png" alt="Estilomania">
@@ -135,8 +157,6 @@
 
 </header>
 
-
-
 <!-- HEADER END -->
 
   <main>
@@ -145,7 +165,7 @@
 
       <div class="us-text">
 
-        <h2>Nos comprometemos con tu proyecto</h2>
+        <h2>Comprometidos con tu proyecto</h2>
 
         <p>Somos una empresa dedicada al estampado textil desde el año 2014, enfocada principalmente en indumentarias
           para empresas, ropa de cocina, uniformes, poleras estampadas y una amplia gama de productos corporativos
@@ -166,7 +186,7 @@
 
         <div class="feature-container">
           <i class="far fa-check-circle"></i>
-          <p>Utilizamos materiales de calidad premium</p>
+          <p>Usamos materiales calidad premium</p>
         </div>
 
         <div class="feature-container">
@@ -188,7 +208,7 @@
         <p> Sin ningún compromiso.</p>
       </div>
       <div class="cblock3">
-        <a href="http://wa.me/56941671098" target="_blank" class="btn btn-lg btn-primary">
+        <a href="http://wa.me/56941671098" target="_blank" class="btn btn-lg btn-primary h-btn">
           Conversemos
         </a>
       </div>
@@ -223,13 +243,13 @@
 
                 <div class="slider-text">
                   <h2>Linea Corporativa</h2>
-                  <p>Polera Polo</p>
-                  <p>Polera Piqué</p>
-                  <p>Micropolar</p>
-                  <p>Gorras</p>
-                  <p>Cortavientos</p>
+                  <h4>Polera Polo</h4>
+                  <h4>Polera Piqué</h4>
+                  <h4>Micropolar</h4>
+                  <h4>Gorras</h4>
+                  <h4>Cortavientos</h4>
 
-                  <a href="http://wa.me/56941671098" target="_blank" class="btn btn-lg btn-primary carousel-btn">
+                  <a href="http://wa.me/56941671098" target="_blank" class="btn btn-lg btn-primary carousel-btn h-btn">
                     Contáctanos
                   </a>
 
@@ -260,13 +280,13 @@
 
                 <div class="slider-text">
                   <h2>Linea Industrial</h2>
-                  <p>Poleras</p>
-                  <p>Geólogos</p>
-                  <p>Pantalon cargo</p>
-                  <p>Micropolar</p>
-                  <p>Legionario</p>
-                  <p>Parkas</p>
-                  <a href="http://wa.me/56941671098" target="_blank" class="btn btn-lg btn-primary carousel-btn">
+                  <h4>Poleras</h4>
+                  <h4>Geólogos</h4>
+                  <h4>Pantalon cargo</h4>
+                  <h4>Overoles</h4>
+                  <h4>Legionario</h4>
+                  <h4>Parkas</h4>
+                  <a href="http://wa.me/56941671098" target="_blank" class="btn btn-lg btn-primary carousel-btn h-btn">
                     Contáctanos
                   </a>
 
@@ -295,13 +315,13 @@
 
                 <div class="slider-text">
                   <h2>Linea Gastronómica</h2>
-                  <p>Chaqueta Chef</p>
-                  <p>Gorra Chef</p>
-                  <p>Pechera</p>
-                  <p>Mandil</p>
-                  <p>Pantalón</p>
-                  <p>Bandana</p>
-                  <a href="http://wa.me/56941671098" target="_blank" class="btn btn-lg btn-primary carousel-btn">
+                  <h4>Chaqueta Chef</h4>
+                  <h4>Gorra Chef</h4>
+                  <h4>Pechera</h4>
+                  <h4>Mandil</h4>
+                  <h4>Pantalón</h4>
+                  <h4>Bandana</h4>
+                  <a href="http://wa.me/56941671098" target="_blank" class="btn btn-lg btn-primary carousel-btn h-btn">
                     Contáctanos
                   </a>
 
@@ -331,13 +351,13 @@
 
                 <div class="slider-text">
                   <h2>Linea Publicitaria</h2>
-                  <p>Timbres</p>
-                  <p>Mascarillas</p>
-                  <p>Bolsas</p>
-                  <p>Gorras</p>
-                  <p>Tazones</p>
-                  <p>Lanyards</p>
-                  <a href="http://wa.me/56941671098" target="_blank" class="btn btn-lg btn-primary carousel-btn">
+                  <h4>Timbres</h4>
+                  <h4>Mascarillas</h4>
+                  <h4>Bolsas</h4>
+                  <h4>Gorras</h4>
+                  <h4>Tazones</h4>
+                  <h4>Lanyards</h4>
+                  <a href="http://wa.me/56941671098" target="_blank" class="btn btn-lg btn-primary carousel-btn h-btn">
                     Contáctanos
                   </a>
 
@@ -366,20 +386,20 @@
           
                           <div class="slider-text">
                             <h2>Linea Sanitaria</h2>
-                            <p>Mascarilla KN95</p>
-                            <p>Mascarilla 3 pliegues</p>
-                            <p>Guantes de vinilo</p>
-                            <p>Pechera desechable</p>
-                            <p>Termómetro infrarojo</p>
-                            <p>Gorra clip</p>
-                            <a href="http://wa.me/56941671098" target="_blank" class="btn btn-lg btn-primary carousel-btn">
+                            <h4>Mascarilla KN95</h4>
+                            <h4>Mascarilla 3 pliegues</h4>
+                            <h4>Guantes de vinilo</h4>
+                            <h4>Pechera desechable</h4>
+                            <h4>Termómetro infrarojo</h4>
+                            <h4>Gorra clip</h4>
+                            <a href="http://wa.me/56941671098" target="_blank" class="btn btn-lg btn-primary carousel-btn h-btn">
                               Contáctanos
                             </a>
           
                           </div>
           
                           <div class="slider-img">
-                            <img class="sliderimg" src="src/slider/5.png" alt="Linea publicitaria">
+                            <img class="sliderimg" src="src/slider/5.png" alt="Linea sanitaria">
           
                           </div>
           
@@ -506,6 +526,22 @@
       </a>
     </div>
   </footer>
+
+  <script>
+    $(window).on("load", function(){
+        setTimeout(function(){
+            $('#myModal').modal('show')
+        }, 3000);
+    });
+
+    $("#xClose").on("click", function(){
+        $('#myModal').modal('hide')
+    });
+
+    $("#btnClose").on("click", function(){
+        $('#myModal').modal('hide')
+    });
+</script>
 
 </body>
 
