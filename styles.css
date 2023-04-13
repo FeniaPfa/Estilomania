@@ -25,7 +25,7 @@ ul,li{
 /* HEADER START */
 
 header{
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background-image: url(./src/herobg.jpg);
   background-position: center;
   background-size: cover;
@@ -142,6 +142,8 @@ background-color: #25D366;
 border-color: #25D366;
 color: white;
 }
+
+
 
 @media (max-width: 500px){
   .hero-text{
@@ -681,3 +683,16 @@ ul.contact-list {
 .modal-body{
   padding: 0;
 }
+
+.second-btn{
+  margin-top: 1rem;
+  border-width: 2px;
+  color:#fff;
+  border-color: #fff;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+/* @media (max-width:450px) {
+  .second-btn{
+  }
+} */
