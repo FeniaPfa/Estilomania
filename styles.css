@@ -135,21 +135,19 @@ header {
 .hero__links{
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
   gap: 2rem;
+  margin-top: 1rem;
 }
 
 .h-btn {
-    margin-top: 1rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.692);
-    width: 200px;
     text-transform: uppercase;
-    text-decoration: none;
-    padding: 10px 20px;
+    padding: 1rem 1.5rem;
     border-radius: 100px;
     transition: all 0.2s;
-    position: relative;
     background-color: #25d366;
     border-color: #25d366;
     color: white;
@@ -168,9 +166,6 @@ header {
     }
     .hero__p{
         font-size: 1rem;
-    }
-    .h-btn {
-        width: initial;
     }
 
     .hero-img {
@@ -674,7 +669,6 @@ footer {
 }
 
 .second-btn {
-    margin-top: 1rem;
     border-width: 2px;
     color: #fff;
     border-color: #fff;
